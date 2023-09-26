@@ -5,11 +5,15 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
 
 <div class="fon">
 
+
     <div class="txt-ornament">
         <div class="ornam">
 
             <div class="i1">
                 <div class="q1">
+                    <div class="home">
+                        <img src="<?=SITE_TEMPLATE_PATH?>/img/home.png" alt="">
+                    </div>
                     <div class="text1"><a>Постоянный персонал</a></div>
                     <div class="text2">
                         Наличие в доме обслуживающего
@@ -20,15 +24,9 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
                     <div class="text3">
                         дань моде и не причуды избалованных нежданно свалившимся богатством нуворишей. Напротив, услугами сиделки или няни пользуются сегодня те, кто отлично знает цену деньгам и своему времени.
                     </div>
-                </div>
-                <div class="home">
-                    <img src="<?=SITE_TEMPLATE_PATH?>/img/home.png" alt="">
-                </div>
-                <div class="button6">
-                    <a href="#"><div class="button7">ПОДРОБНЕЕ</div></a>
-                </div>
-                <div class="orn1">
-                    <img src="<?=SITE_TEMPLATE_PATH?>/img/ornam1.png" alt="">
+                    <div class="button6">
+                        <a href="#"><div class="button7">ПОДРОБНЕЕ</div></a>
+                    </div>
                 </div>
             </div>
             <div class="i2">
@@ -52,16 +50,26 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
                     <div class="text3-1">
                         дань моде и не причуды избалованных нежданно свалившимся богатством нуворишей. Напротив, услугами сиделки или няни пользуются сегодня те, кто отлично знает цену деньгам и своему времени.
                     </div>
+                    <div class="button8">
+                        <a href="#"><div class="button9">ПОДРОБНЕЕ</div></a>
+                    </div>
                 </div>
-                <div class="button8">
-                    <a href="#"><div class="button9">ПОДРОБНЕЕ</div></a>
+            </div>
+        </div>
+        <div class="orn5">
+            <div>
+                <div class="orn1">
+                    <img src="<?=SITE_TEMPLATE_PATH?>/img/ornam1.png" alt="">
                 </div>
+            </div>
+            <div>
                 <div class="orn3">
                     <img src="<?=SITE_TEMPLATE_PATH?>/img/ornam4.png" alt="">
                 </div>
             </div>
-
         </div>
+
+
         <div class="foto4">
 
             <div class="foto"><img class="foto1" src="<?=SITE_TEMPLATE_PATH?>/img/2-1.png" alt=""></div>
