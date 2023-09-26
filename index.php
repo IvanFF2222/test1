@@ -33,8 +33,9 @@ $APPLICATION->SetTitle("1С-Битрикс: Управление сайтом");
             </div>
             <div class="i2">
                 <div class="orn2">
-                    <img src="<?=SITE_TEMPLATE_PATH?>/img/ornam2.png" alt="">
+                    <img src="<?=SITE_TEMPLATE_PATH?>/img/ornam2-1.png" alt="">
                 </div>
+                <div class="orn4"></div>
             </div>
             <div class="i3">
                 <div class="time">

@@ -8,3 +8,15 @@ document.querySelectorAll('.dropdown_list-item').forEach(function (ListItem) {
         document.querySelector('.dropdown_list').classList.remove('dropdown_list--visible');
     })
 })
+
+document.querySelectorAll('.dropdown_list').forEach(function (listitem) {
+    listitem.addEventListener('click', function (e) {
+        e.stopPropagation();
+    })
+});
+
+document.addEventListener('click', function (e) {
+    if (e.target !== document.querySelector('.dropdown_button')) {
+        document.querySelector('.dropdown_list').classList.remove('dropdown_list--visible')
+    }
+});

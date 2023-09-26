@@ -404,6 +404,15 @@ body {
   margin-left: -69px;
 }
 
+.orn4 {
+  position: absolute;
+  background: #e3d6c4;
+  margin-left: -14.5px;
+  height: 175px;
+  width: 1px;
+  margin-top: 78px;
+}
+
 .i3 {
   display: flex;
 }
@@ -1082,6 +1091,13 @@ label {
 
 .inp1 {
   padding-top: 17px;
+}
+
+.inp1 input[type=text],
+.inp2 input[type=text] {
+  font-family: Verdana;
+  font-size: 18px;
+  color: #45250a;
 }
 
 .txt4 {
