@@ -133,7 +133,7 @@ $APPLICATION->ShowPanel();
                     <li class="txt3"><a class="vp1" href="#">Отзывы</a></li>
                 </ul>
             </li>
-            <li class="a1"><a class="txt2" href="#">ЦЕНЫ</a></li>
+            <li class="a1"><a class="txt2" href="test.php">ТЕСТ ВЕРСТКА</a></li>
         </ul>
         <div class="logo">
             <a href="/"><img src="<?=SITE_TEMPLATE_PATH?>/img/logo2.png" alt=""></a>

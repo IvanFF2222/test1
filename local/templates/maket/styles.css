@@ -1,3 +1,30 @@
+body {
+  margin: 0;
+}
 
+.main_test {
+  margin: 0 auto;
+  width: 660px;
+}
+
+.main_test p {
+  text-align: justify;
+}
+
+.flex_1 {
+  display: flex;
+  gap: 10px;
+}
+
+.ul_1 {
+  width: 325px;
+}
+
+.img_2 {
+  display: block;
+  margin: auto;
+  width: 325px;
+  height: 226px;
+}
 
 /*# sourceMappingURL=styles.css.map */
